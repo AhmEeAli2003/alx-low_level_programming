@@ -2,6 +2,7 @@
 
 /**
  * print_line - print line
+ * @n: number of unders scores.
  *
  * Return: Always void.
  */
@@ -13,6 +14,6 @@ void print_line(int n)
 		{
 			_putchar('_');
 		}
-	}	
+	}
 	_putchar('\n');
 }
