@@ -29,6 +29,6 @@ for (i = 1; i <= 100; i++)
 		printf("%d ", i);
 	}
 }
-printf("\b\n");
+printf("\n");
 return (0);
 }
