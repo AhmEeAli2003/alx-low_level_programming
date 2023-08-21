@@ -7,9 +7,12 @@
  */
 int main(void)
 {
-int n = 45, m = 434;
+char *str;
+    int len;
 
-swap_int(&n, &m);
-printf("%d\t%d\n", n, m);
+    str = "My first strlen!";
+    len = _strlen(str);
+    printf("%d\n", len);
+    return (0);
 return(0);
 }
