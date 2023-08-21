@@ -12,7 +12,7 @@ int len = 0, i, j = 0;
 
 for (i = 0; ; i++)
 {
-	if(s[i] == '\0')
+	if (s[i] == '\0')
 		break;
 	temp[i] = s[i];
 	len++;
@@ -20,6 +20,6 @@ for (i = 0; ; i++)
 
 for (i = len - 1; i >= 0; i--, j++)
 {
-	s[j] = temp[i]; 
+	s[j] = temp[i];
 }
 }
