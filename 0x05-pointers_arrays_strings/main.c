@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-int n = 45;
+int n = 45, m = 434;
 
-reset_to_98(&n);
-printf("%d", n);
+swap_int(&n, &m);
+printf("%d\t%d\n", n, m);
 return(0);
 }
