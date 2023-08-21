@@ -13,7 +13,7 @@ int i = 0, len = 0, half = 0;
 for (len = 0 ; ; len++)
 	if (s[len] == '\0')
 		break;
-half = (len - 1) / 2;
+half = len % 2 == 1 ? (len - 1) / 2 : len / 2;
 
 for (i = half ; ; i++)
 {
